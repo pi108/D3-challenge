@@ -40,11 +40,9 @@ The scatter plot displays 51 circles representing data for the 50 states and one
 We created a jupyter notebook that extracted the data from the csv file and calculated the correlations and the r-squareds for the different combinations of X Axis and Y Axis labels to understand the direction (positive or negative) and the strength of the relationships between these combinations. The results are as follows:
 <br>
 #### Poverty & Obesity: 
-<br>
 Correlation (R): 0.46,  R-Squared: 0.21,  Relationship: Positive, Statistically Significant: No
 
 #### Poverty & Smoking:               
-<br>
 Correlation (R): 0.52,  R-Squared: 0.27,  Relationship: Positive, Statistically Significant: No
 
 Poverty & HealthCare: 
