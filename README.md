@@ -41,7 +41,7 @@ We created a jupyter notebook that extracted the data from the csv file and calc
 <br>
 #### Poverty & Obesity: 
 Correlation (R): 0.46,  R-Squared: 0.21,  Relationship: Positive, Statistically Significant: No
-
+![](D3_data_journalism/assets/data/Correlation_Analysis_Poverty vs Obesity.PNG)
 #### Poverty & Smoking:               
 Correlation (R): 0.52,  R-Squared: 0.27,  Relationship: Positive, Statistically Significant: No
 
