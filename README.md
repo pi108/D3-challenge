@@ -29,3 +29,8 @@ The dataset provided to us in the csv file contained the following columns:
 * Healthcare / Healthcare Low / Healthcare High
 * Obesity / Obesity Low / Obesity High
 * Smokes / Smokes Low / Smokes High
+
+### Webpage Details:
+We were asked to build a webpage containing a “dynamic scatter plot” with 3 labels on the X Axis (Poverty / Age / Income) and 3 labels on the Y Axis (Obesity / Smokes / Healthcare) that allows the user to select any combination of an X axis and a Y axis label, and see the scatter plot update automatically for the selected labels.  
+
+
