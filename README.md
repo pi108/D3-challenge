@@ -42,11 +42,11 @@ We created a jupyter notebook that extracted the data from the csv file and calc
 #### Poverty & Obesity: 
 <br>
 Correlation (R): 0.46,  R-Squared: 0.21,  Relationship: Positive, Statistically Significant: No
-<br>
+
 #### Poverty & Smoking:               
 <br>
 Correlation (R): 0.52,  R-Squared: 0.27,  Relationship: Positive, Statistically Significant: No
-<hr>
+
 Poverty & HealthCare: 
 Correlation (R): 0.52,  R-Squared: 0.28,  Relationship: Positive, Statistically Significant: No
 <hr>
