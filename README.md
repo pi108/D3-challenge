@@ -15,3 +15,17 @@ This folder contains the following subfolders:
 *- The correlation graphs generated from the jupyter notebook file.
 * Js: This folder contains”
 *- The main javascript file called “app” that is used in the index.html file.
+
+### Dataset Details:
+The dataset provided to us in the csv file contained the following columns:
+* Id
+* Name of the State
+* Abbreviation of the State
+* Poverty 
+* Poverty Margin of Error
+* Age / Age Margin of Error
+* Poverty / Poverty Margin of Error
+* Income / Income Margin of Error
+* Healthcare / Healthcare Low / Healthcare High
+* Obesity / Obesity Low / Obesity High
+* Smokes / Smokes Low / Smokes High
