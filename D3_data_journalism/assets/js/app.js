@@ -1,4 +1,9 @@
-// @TODO: YOUR CODE HERE!
+
+// ==================================================================================================
+// CREATE VARIABLES FOR SVG HEIGHT, SVG WIDTH, MARGINS, ACTUAL CHART HEIGHT,  ACTUAL CHART WIDTH
+// ==================================================================================================
+
+
 /* var svgWidth = 840;
 var svgHeight = 560; */
 
@@ -17,6 +22,11 @@ console.log(height);
 
 var svg = d3.select("#scatter").append("svg").attr("width", svgWidth).attr("height", svgHeight);
 var chartGroup = svg.append("g").attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+
+// ==================================================================================================
+// CREATE VARIABLES FOR DETAILS OF X AND Y AXIS LABEL CHOICES 
+// ==================================================================================================
 
 
 
@@ -76,6 +86,12 @@ var ylabelchoices = [
   }
 ];
 
+
+
+// ==================================================================================================
+// CREATE VARIABLES FOR LIST OF AVAILABLE X AND Y AXIS LABELS AND ALSO SELECTED X AND Y AXIS LABELS
+// ==================================================================================================
+
 var listXAxisLabels = xlabelchoices.map(d => d.value);
 var listYAxisLabels = ylabelchoices.map(d => d.value);
 // Default choice
@@ -85,9 +101,9 @@ var selectedYAxisLabel = listYAxisLabels[0];
 
 
 
-// Functions
-
-
+// ==================================================================================================
+// CREATE A FUNCTION FOR DETERMINING LINEAR SCALE
+// ==================================================================================================
 
 
 var getLinearScale = (data, userSelectedAxisLabel) => {
@@ -107,7 +123,9 @@ var getLinearScale = (data, userSelectedAxisLabel) => {
 
 
 
-
+// ==================================================================================================
+// CREATE A FUNCTION FOR CREATING AXES
+// ==================================================================================================
 
 var renderAxes = (newScale, newAxis, XorY) => {
   var axis = d3.axisBottom(newScale);
@@ -121,7 +139,9 @@ var renderAxes = (newScale, newAxis, XorY) => {
 
 
 
-
+// ==================================================================================================
+// CREATE A FUNCTION FOR CREATING CIRCLES ON THE SCATTER PLOT
+// ==================================================================================================
 
 var renderCircles = (circlesGroup, newScale, userSelectedAxisLabel) => {
   var attstr = "cx";
@@ -135,7 +155,9 @@ var renderCircles = (circlesGroup, newScale, userSelectedAxisLabel) => {
 
 
 
-
+// ==================================================================================================
+// CREATE A FUNCTION FOR UPDATING THE TOOLTIPS 
+// ==================================================================================================
 
 var updateToolTip = circlesGroup => {
 
@@ -158,6 +180,9 @@ var updateToolTip = circlesGroup => {
 
 
 
+// ==================================================================================================
+// CREATE A FUNCTION FOR UPDATING THE ABBREVIATIONS INSIDE THE CIRCLES ON THE SCATTER PLOT
+// ==================================================================================================
 
 
 var renderAbbr = (abbrGroup, newScale, userSelectedAxisLabel) => {
@@ -172,7 +197,9 @@ var renderAbbr = (abbrGroup, newScale, userSelectedAxisLabel) => {
 
 
 
-
+// ==================================================================================================
+// CREATE A FUNCTION FOR UPDATING THE LABELS
+// ==================================================================================================
 
 var setLabels = (labelsGroup, d, labels) => {
   var onelabel = labelsGroup.append("text")
@@ -188,6 +215,9 @@ var setLabels = (labelsGroup, d, labels) => {
 
 
 
+// ==================================================================================================
+// CREATE A FUNCTION FOR THE STEPS NEEDED WHEN A USER CLICKS ON AN X OR Y AXIS LABEL
+// ==================================================================================================
 
 var handleOnClickLabel = (trgt, data, XorY, labels, axis, circlesGroup, abbrGroup) => {
   
@@ -236,7 +266,17 @@ var handleOnClickLabel = (trgt, data, XorY, labels, axis, circlesGroup, abbrGrou
 }
 
 
-
+// ==================================================================================================
+// CREATE A FUNCTION TO:
+// 1. LOAD THE DATA
+// 2. DETERMINE THE SCALE FOR THE X AND Y AXES
+// 3. CREATE THE SECTIONS FOR THE X AND Y AXES
+// 4. CREATE THE LABELS FOR THE X AND Y AXES
+// 5. CREATE THE SECTION FOR THE CIRCLES ON THE SCATTERPLOT
+// 6. CREATE THE SECTION FOR THE ABBREVAITIONS INSIDE THE CIRCLES
+// 7. DEFINE THE STEPS NEEDED WHEN A USER CLCIKS ON AN X AXIS LABEL
+// 8. DEFINE THE STEPS WHEN A USER CLICKS ON A Y AXIS LABEL
+// ==================================================================================================
 
 
 d3.csv("assets/data/data.csv").then((data, err) => {
@@ -320,3 +360,8 @@ d3.csv("assets/data/data.csv").then((data, err) => {
 }).catch(error => {
   console.log(error);
 });
+
+
+// ==================================================================================================
+// END OF THE SCRIPT
+// ==================================================================================================
