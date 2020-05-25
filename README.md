@@ -40,15 +40,38 @@ The scatter plot displays 51 circles representing data for the 50 states and one
 We created a jupyter notebook that extracted the data from the csv file and calculated the correlations and the r-squareds for the different combinations of X Axis and Y Axis labels to understand the direction (positive or negative) and the strength of the relationships between these combinations. The results are as follows:
 <br>
 #### Poverty & Obesity: 
-Correlation (R): 0.46,  R-Squared: 0.21,  Relationship: Positive, Statistically Significant: No
+Correlation (R): 0.46
 <br>
-![](images/Correlation_Analysis_Poverty vs Obesity.PNG)
-#### Poverty & Smoking:               
-Correlation (R): 0.52,  R-Squared: 0.27,  Relationship: Positive, Statistically Significant: No
+R-Squared: 0.21
+<br> 
+Relationship: Positive (Upward Sloping)
+<br>
+Statistically Significant: No
+<br>
+![](images/Correlation_Analysis_Poverty_vs_Obesity.png)
 
-Poverty & HealthCare: 
-Correlation (R): 0.52,  R-Squared: 0.28,  Relationship: Positive, Statistically Significant: No
-<hr>
+#### Poverty & Smoking:               
+Correlation (R): 0.52
+<br>
+R-Squared: 0.27
+<br> 
+Relationship: Positive (Upward Sloping)
+<br>
+Statistically Significant: No
+<br>
+![](images/Correlation_Analysis_Poverty_vs_Smoking.png)
+
+#### Poverty & HealthCare: 
+Correlation (R): 0.52
+<br>
+R-Squared: 0.28
+<br>
+Relationship: Positive (Upward Sloping)
+<br>
+Statistically Significant: No
+<br>
+![](images/Correlation_Analysis_Poverty_vs_Healthcare.png)
+
 Age & Obesity:
 Correlation (R): -0.01,  R-Squared: 0.0,  Relationship: None, Statistically Significant: N/A
 <hr>
