@@ -72,21 +72,63 @@ Statistically Significant: No
 <br>
 ![](images/Correlation_Analysis_Poverty_vs_Healthcare.png)
 
-Age & Obesity:
-Correlation (R): -0.01,  R-Squared: 0.0,  Relationship: None, Statistically Significant: N/A
-<hr>
-Age & Smoking:
-Correlation (R): 0.25,  R-Squared: 0.06,  Relationship: Positive, Statistically Significant: No
-<hr>
-Age & Healthcare:
-Correlation (R): - 0.39,  R-Squared: 0.15,  Relationship: Negative, Statistically Significant: No
-<hr>
-Income & Obesity:
-Correlation (R): - 0.65,  R-Squared: 0.42,  Relationship: Negative, Statistically Significant: YES
-<hr>
-Income & Smoking:
-Correlation (R): - 0.66,  R-Squared: 0.44,  Relationship: Negative, Statistically Significant: YES
-<hr>
-Income & Healthcare:
-Correlation (R): - 0.43,  R-Squared: 0.19,  Relationship: Negative, Statistically Significant: No
+#### Age & Obesity:
+Correlation (R): -0.01
+<br>
+R-Squared: 0.0
+<br> 
+Relationship: None
+<br>
+Statistically Significant: N/A
+<br>
+![](images/Correlation_Analysis_Age_vs_Obesity.png)
 
+#### Age & Smoking:
+Correlation (R): 0.25
+<br>
+R-Squared: 0.06
+<br>
+Relationship: Positive (Upward Sloping)
+<br>
+Statistically Significant: No
+![](images/Correlation_Analysis_Age_vs_Smoking.png)
+
+#### Age & Healthcare:
+Correlation (R): - 0.39
+<br>
+R-Squared: 0.15
+<br>
+Relationship: Negative (Downward Sloping)
+<br>
+Statistically Significant: No
+![](images/Correlation_Analysis_Age_vs_Healthcare.png)
+
+#### Income & Obesity:
+Correlation (R): - 0.65
+<br>
+R-Squared: 0.42
+<br>
+Relationship: Negative (Downward Sloping)
+<br>
+Statistically Significant: YES
+![](images/Correlation_Analysis_Income_vs_Obesity.png)
+
+#### Income & Smoking:
+Correlation (R): - 0.66
+<br>
+R-Squared: 0.44
+<br>
+Relationship: Negative (Downward Sloping)
+<br>
+Statistically Significant: YES
+![](images/Correlation_Analysis_Income_vs_Smoking.png)
+
+#### Income & Healthcare:
+Correlation (R): - 0.43
+<br>
+R-Squared: 0.19
+<br>
+Relationship: Negative (Downward Sloping)
+<br>
+Statistically Significant: No
+![](images/Correlation_Analysis_Income_vs_Healthcare.png)
