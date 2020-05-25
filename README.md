@@ -91,6 +91,7 @@ R-Squared: 0.06
 Relationship: Positive (Upward Sloping)
 <br>
 Statistically Significant: No
+<br>
 ![](images/Correlation_Analysis_Age_vs_Smoking.png)
 
 #### Age & Healthcare:
@@ -101,6 +102,7 @@ R-Squared: 0.15
 Relationship: Negative (Downward Sloping)
 <br>
 Statistically Significant: No
+<br>
 ![](images/Correlation_Analysis_Age_vs_Healthcare.png)
 
 #### Income & Obesity:
@@ -111,6 +113,7 @@ R-Squared: 0.42
 Relationship: Negative (Downward Sloping)
 <br>
 Statistically Significant: YES
+<br>
 ![](images/Correlation_Analysis_Income_vs_Obesity.png)
 
 #### Income & Smoking:
@@ -121,6 +124,7 @@ R-Squared: 0.44
 Relationship: Negative (Downward Sloping)
 <br>
 Statistically Significant: YES
+<br>
 ![](images/Correlation_Analysis_Income_vs_Smoking.png)
 
 #### Income & Healthcare:
@@ -131,4 +135,5 @@ R-Squared: 0.19
 Relationship: Negative (Downward Sloping)
 <br>
 Statistically Significant: No
+<br>
 ![](images/Correlation_Analysis_Income_vs_Healthcare.png)
