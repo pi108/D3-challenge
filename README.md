@@ -40,14 +40,19 @@ The scatter plot displays 51 circles representing data for the 50 states and one
 For example, this is an image of the scatterplot on the webpage when the user selects Poverty on the X Axis and Obesity on the Y Axis:
 <br>
 <br>
-![](images/Webpage_Poverty_vs_Obesity.PNG)
+
 <br>
 <br>
-If the user then leaves Poverty on the X Axis, but selects Smokes on the Y Axis, the scatterplot on the webpage will look as follows:
+If the user then selects Age on the X Axis, and Smokes on the Y Axis, the scatterplot on the webpage will automatically adjust and look as follows:
 <br>
 <br>
 ![](images/Webpage_Age_vs_Smoking.PNG)
-
+<br>
+<br>
+Similarly, if the user selects Income on the X Axis, and Lacks Healthcare on the Y Axis, the scatterplot on the webpage will automatically adjust and look as follows:
+<br>
+<br>
+![](images/Webpage_Income_vs_Healthcare.PNG)
 
 
 ### Correlation Analysis:
