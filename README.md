@@ -1,6 +1,6 @@
 # D3 Challenge:
 
-## This repository contains the folders and files regarding a D3exercise that was performed with data from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System. 
+## This repository contains the folders and files regarding a D3 exercise that was performed with data from the U.S. Census Bureau and the Behavioral Risk Factor Surveillance System for 50 states and one Federal District (Washington D.C.) of the United States of America. 
 
 ### Files and Folder Structure:
 This repository contains the following:
