@@ -58,10 +58,20 @@ R-Squared: 0.27
 Relationship: Positive (Upward Sloping)
 <br>
 Statistically Significant: No
+<br>
+![](images/Correlation_Analysis_Poverty_vs_Smoking.png)
 
-Poverty & HealthCare: 
-Correlation (R): 0.52,  R-Squared: 0.28,  Relationship: Positive, Statistically Significant: No
-<hr>
+#### Poverty & HealthCare: 
+Correlation (R): 0.52
+<br>
+R-Squared: 0.28
+<br>
+Relationship: Positive (Upward Sloping)
+<br>
+Statistically Significant: No
+<br>
+![](images/Correlation_Analysis_Poverty_vs_Healthcare.png)
+
 Age & Obesity:
 Correlation (R): -0.01,  R-Squared: 0.0,  Relationship: None, Statistically Significant: N/A
 <hr>
