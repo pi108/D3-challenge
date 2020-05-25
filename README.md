@@ -35,6 +35,11 @@ We were asked to build a webpage containing a “dynamic scatter plot” with 3 
 <br>
 <br>
 The scatter plot displays 51 circles representing data for the 50 states and one Federal District (Washington D.C.) of the Unites States of America.Each circle represents the datapoints for the selected X Axis and Y Axis labels for a particular state. The abbreviation for each state is inside the relevant circle. For instance, TX in a circle represents the data for the state of Texas, CA in a circle represents data for the state of California, and so on. If you hover over any of the circles, you will see a pop up box that shows the full name of the State, and the data values for both, the selected X Axis and Y Axis Labels.
+<br>
+<br>
+This is an image of the Webpage when the user selects Poverty on the X Axis and the Y Axis:
+![](images/Webpage_Poverty_vs_Obesity.PNG)
+
 
 ### Correlation Analysis:
 We created a jupyter notebook that extracted the data from the csv file and calculated the correlations and the r-squareds for the different combinations of X Axis and Y Axis labels to understand the direction (positive or negative) and the strength of the relationships between these combinations. The results are as follows:
