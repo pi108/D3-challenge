@@ -56,7 +56,13 @@ Similarly, if the user selects Income on the X Axis, and Lacks Healthcare on the
 
 
 ### Correlation Analysis:
-We created a jupyter notebook that extracted the data from the csv file and calculated the correlations and the r-squareds for the different combinations of X Axis and Y Axis labels to understand the direction (positive or negative) and the strength of the relationships between these combinations. The results are as follows:
+We created a jupyter notebook that extracted the data from the csv file and calculated the correlations and the r-squareds for the different combinations of X Axis and Y Axis labels to understand the direction (positive or negative) and the strength of the relationships between these combinations. 
+<br>
+We used the guidelines published on the following website to determine a meaningfu R-Squared number:
+https://condor.depaul.edu/sjost/it223/documents/correlation.htm
+Economics is a social science and based on the guidelines on this website, an R-Squared of > 0.35 is considered meaningful.  
+We ran Linear Regressions in our Analysis and used the R-Squared of 0.35 as the cut-off for a meaningful R-Squared.
+The results are as follows:
 <br>
 #### Poverty & Obesity: 
 Correlation (R): 0.46
