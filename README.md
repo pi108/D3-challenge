@@ -55,7 +55,7 @@ Similarly, if the user selects Income on the X Axis, and Lacks Healthcare on the
 ![](images/Webpage_Income_vs_Healthcare.PNG)
 
 
-### Correlation Analysis:
+### Correlation (R) and R-Squared Analysis:
 We created a jupyter notebook that extracted the data from the csv file and calculated the correlations and the r-squareds for the different combinations of X Axis and Y Axis labels to understand the direction (positive or negative) and the strength of the relationships between these combinations. 
 <br>
 We used the guidelines published on the following website to determine a meaningfu R-Squared number:
